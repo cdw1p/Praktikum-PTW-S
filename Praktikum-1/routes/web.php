@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('0333_home');
+});
+
+Route::get('/artikel', function () {
+    return view('0333_artikel');
+});
+
+Route::get('/tentang-saya', function () {
+    return view('0333_tentang');
 });
